@@ -1,0 +1,6 @@
+Question 1 :
+Assign and print the roll number, phone number, and address of two students having names Sam and John respectively by creating two objects of class student
+
+
+Question 2 :
+Print the Average of 3 numbers entered by user by creating a class name average having method to calculate and print the average.
