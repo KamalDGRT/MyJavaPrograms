@@ -1,0 +1,50 @@
+Features of java :
+1) Simple :
+   Java is considered as one of the simple language because it does not have complex Features like operator overloading , multiple inheritance, pointers, and explicit memory allocation.
+2) Object oriented :
+   Object oriented programming is a way of organizing programs as collection of objects, each of which represents an instance of a class.
+
+     2.1 ) Abstraction :
+           Abstraction is process where you show only relevant data and hide unnecessary details of an object from the user.
+     2.2 ) Encapsulation :
+           Binding the data with code that manipulates it.
+           It keeps the data and the code safe from external interference.
+     2.3 ) Inheritance :
+           An object acquires some or all the properties of another object.
+
+     2.4 ) Polymorphism :
+           Polymorphism means to process differently based on their data type. In other words, one method with multiple implementation for a certain class of action.
+
+           2 types of Polymorphism :
+               Method overloading : Static Polymorphism
+               Method overriding  : Dynamic Polymorphism
+
+3) Robust language :
+   Early checking for possible errors. The main features of Java that makes it robust are :
+      * Garbage collection
+      * Exception handling
+      * Memory allocation
+
+4) Secure :
+   We don't have pointers and we cannot access out of bound arrays in Java.
+
+5) Distributed :
+   We can create distributed applications - RMI , EJB,
+
+6) Multithreading :
+   It is a java feature that allows concurrent execution of 2 or more parts of a program for maximum utilization of CPU.
+
+7) Portable :
+   It is platform independent.
+
+
+Principle of Java :
+   "Write once, run anywhere."
+
+  // Hello world statement.
+  public static void main ()
+  public : access specifier . this makes the main method public. That means, we can call the method from outside the class.
+  static : we do not need to create object for static methods to run. They can run on their own.
+  void : it does not return anything.
+  main : It is a method name. This is the entry point method from which JVM can run your program.
+  String[] args : used for command line arguments that are passed as strings.

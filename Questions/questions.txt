@@ -3,4 +3,16 @@ Assign and print the roll number, phone number, and address of two students havi
 
 
 Question 2 :
-Print the Average of 3 numbers entered by user by creating a class name average having method to calculate and print the average.
+Print the Average of 3 numbers by creating a class name average having method to calculate and print the average.
+
+Question 3 :
+Print the average of three numbers passed as arguments using a different class to do the calculation, displaying stuff.
+
+Question 4 :
+A program to display the vehicle Details.
+
+Question 5 :
+A program to calculate the student's marks using Scanner class.
+
+Question 6 :
+A program to show constructor overloading for different operations that is possible on a circle.
