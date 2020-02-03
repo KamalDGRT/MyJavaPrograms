@@ -82,3 +82,17 @@ data member.
    super() is added in each class constructor automatically.
    
 Garbage Collection:
+In Java, garbage means unreferenced object.
+Garbage collection is process of reclaiming the runtime unused memory automatically.
+In other words, it is the way to destroy the ununsed objects.
+Java provides better memory management.
+
+Adavantages of garbage collection:
+ - It makes Java memory efficient because, garbage collector removes the unreferenced objects from the heap memory.
+ - It is is automatically done by the garbage collector (it is a part of JVM), so we dont need to make extra efforts.
+
+How can Object be unreferenced?
+ - by nulling the refernce
+ - by assigning the reference to another.
+ - anonymous object
+ 
