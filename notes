@@ -48,3 +48,37 @@ Principle of Java :
   void : it does not return anything.
   main : It is a method name. This is the entry point method from which JVM can run your program.
   String[] args : used for command line arguments that are passed as strings.
+
+
+In java, 
+In other words, super keyword is used by a sub class whenever it needs to refer to its immediate super class.
+
+Need of Super class:
+Whenever the derived class inherits the base class features, there is a possibility that base class features are similar
+to derived class features and JVM gets an ambiguity.
+In order to differentiate between base class feature and derived class feature must be preceded by super keyword.
+
+Super at three level:
+1) Super at variable level :
+   Syntax :
+      super.baseclassdatamember.
+
+Whenever the derived class inherits the base class data members, there is a possibility that base class data members 
+are similar to derived class features and JVM gets an ambiguity.
+In order to differentiate between base class data memeber and derived class member must be preceded by super keyword.
+
+If we are not writing super keyword before the base class data member name, then, it will be referred as parent class 
+data member.
+
+
+2) Super at Method level
+   The super keyword can also be used to invoke or call parent class method.
+   It should be used in case of method over riding.
+
+3) Super at Constructor level 
+   Super keyword can also be used to invoke or call the parent class Constructor.
+   To establish the connection between the base class constructor and derived class constructor, JVM provides 
+   super().
+   super() is added in each class constructor automatically.
+   
+Garbage Collection:
