@@ -99,3 +99,32 @@ How can Object be unreferenced?
 Assignment :
 String class and String Buffer class.
    - What are the classes and methods?
+
+
+Difference Between String and StringBuffer Class in Java
+Storage	String constant pool.	Heap Memory.
+Definition of String
+“String” is a class in Java. 
+The object of the class String is of fixed length, and most important to remember, the object of String class is “immutable”. 
+Once you initialize the String object, you can not modify that object again. 
+The object of the class String is stored in String constant pool.
+
+Let us first understand that, whenever you create any string; you create an object of type string. 
+The string constants are also string objects.
+
+System.out.println("Hello this is Teckpix Solution");
+
+In above statement, the string “Hello this is Teckpix Solution” is a String constant.
+
+Now let us understand the mutability of the String object with the help of an example.
+
+String str=new String ("Teckpix");
+str.concat("Solution");
+system.out.println( str );
+//output
+Teckpix
+
+In above code, I tried to concatenate the two strings “Teckpix” and “Solution”. 
+As we know whenever a string is created that means the object of type String is created. 
+Hence, the string “Teckpix” creates an object, whose reference is assigned to the string object “str”. 
+Next, I tried to concatenate an another string “Solution” with the string “Teckpix” using the method “concat( )” of the class String.
