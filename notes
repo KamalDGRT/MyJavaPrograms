@@ -128,3 +128,48 @@ In above code, I tried to concatenate the two strings “Teckpix” and “Solut
 As we know whenever a string is created that means the object of type String is created. 
 Hence, the string “Teckpix” creates an object, whose reference is assigned to the string object “str”. 
 Next, I tried to concatenate an another string “Solution” with the string “Teckpix” using the method “concat( )” of the class String.
+
+5/2/20
+
+Abstract Class:
+
+abstract class Bank
+{
+      void display()
+      {
+         System.out.println("inside");
+      }
+
+      abstract float rateOfInterst()
+      {
+            System.out.
+      }
+}
+
+Definition:
+A class which is declared with the abstract keyword is known as abstract class.
+It can have abstract and non abstract methods.
+
+Ways to achieve abstraction:
+ 1) Abstract class (0-100%) :
+ 2) Interface (100%)
+
+An abstract class must be declared with an abstract keyword.
+It can have abstract and non abstract methods.
+It cannot be instantiated.
+It can have constructors and static methods also.
+
+Syntax:
+
+ abstract class <classname>
+ {
+
+ }
+
+ Abstract Method:
+ A method which is declared as abstract and does not have implementation is known as an abstract method.
+
+
+sytanx :
+ abstract <return type> methodname();
+ 

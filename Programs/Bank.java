@@ -1,9 +1,14 @@
-class Bank
+abstract class Bank
 {
     double rateOfInterest()
     {
         return 0.5;
     }
+
+    void display()
+      {
+         System.out.println("inside");
+      }
 }
 
 class Indian extends Bank
@@ -24,5 +29,8 @@ class HDFC extends Bank
 
 class ICICI extends Bank
 {
-    
+    float rateOfInterest()
+    {
+        System.out.println(0.75);
+    }
 }
