@@ -237,3 +237,5 @@ class B
         ob.msg();
     }
 }
+
+Fully qualified name:

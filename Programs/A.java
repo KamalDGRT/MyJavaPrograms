@@ -1,17 +1,18 @@
+
 package mypackage;
-class A
+public class A
 {
     public void msg()
     {
-        System.out.println("inisde mypackage.");
+        System.out.println("inside mypackage.");
     }
 }
 
-class C
+/*public class C
 {
-    disp()
+    public void disp()
     {
         System.out.println();
     }
-}
 
+*/

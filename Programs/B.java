@@ -1,6 +1,6 @@
-import mypackage.*;
 
-class B
+import mypackage.*;
+public class B
 {
     public static void main (String[] args)
     {
