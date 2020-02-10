@@ -173,3 +173,67 @@ Syntax:
 sytanx :
  abstract <return type> methodname();
  
+
+ 10/2/2020
+
+ Packages:
+ 1. Importing a package with package name (whole package)
+ 2. Importing a package with specialized classname
+ 3. Importing fully qualified name
+
+
+ Java package:
+ It is a group of similar types of classes, interfaces and sub-packages.
+ There are 2 types :
+   - Built-in package (java, lang, io,..etc)
+   - User-defined package
+
+Adavantages of Java Packages:
+ - Java packages are used to categorize the classes and interfaces so that, they can be 
+   easily maintained.
+ - Java packages remove naming collisions. 
+   So, you can have different files with similar names in different folders,
+   same way, differnt packages can have java classes with the same name.
+   Thus, preventing name collisions as classes qualified with package name.
+
+ - Packages in java provide access protection or visibility control mechanism.
+
+Creating a package in java:
+  Syntax : package packagename;
+
+Compilation : javac -d location filename.java
+              javac -d. filename.java
+
+To run the file : java package.filename
+
+Creating a Package :
+
+package mypackage;
+class A
+{
+    public void msg()
+    {
+        System.out.println("inisde mypackage.");
+    }
+}
+
+class C
+{
+    disp()
+    {
+        System.out.println();
+    }
+}
+
+Importing the package created:
+
+import mypackage.*;
+
+class B
+{
+    public static void main (String[] args)
+    {
+        A ob = new A();
+        ob.msg();
+    }
+}
