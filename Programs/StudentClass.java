@@ -1,8 +1,6 @@
 // A simple java program to pass arguments to a function and display the same
 // using a single class
 
-import java.io.*;
-
 public class StudentClass
 {
 
