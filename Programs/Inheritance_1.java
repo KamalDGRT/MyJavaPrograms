@@ -1,23 +1,3 @@
-class A1
-{
-    int x,y;
-    
-    void display()
-    {
-        System.out.println("x = " + x + ", y = " + y);
-    }
-}
-
-class B1 extends A1
-{
-    int z;
-    
-    void display()
-    {
-        System.out.println("x = " + x + ", y = " + y + ", z = " + z);
-    }
-}
-
 public class Inheritance_1
 {
     public static void main(String args[])
