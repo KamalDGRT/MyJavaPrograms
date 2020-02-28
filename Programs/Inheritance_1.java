@@ -18,7 +18,7 @@ class B1 extends A1
     }
 }
 
-class Inheritance_1
+public class Inheritance_1
 {
     public static void main(String args[])
     {
