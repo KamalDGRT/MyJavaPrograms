@@ -37,5 +37,3 @@ numFloor = 12.0
 numInteger = 12
 
 */
-
-
