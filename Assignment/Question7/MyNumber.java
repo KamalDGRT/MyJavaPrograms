@@ -5,6 +5,10 @@ b) Finds the ceil value of 'num' and stores the result in a variable numCeil of 
 c) Finds the floor value of 'num' and stores the result in a variable numFloor of type double 
 d) Cast 'num' to type int and stores the result in a variable numInteger of type int. 
 Display output of numRound, numCeil, numFloor and numInteger on screen.
+
+Note: Test your program with following value of num num=56.764 num=36.432 Use
+Math.round, Math.ceil, Math.floor methods of class Math for 1,2 and 3.
+
 */
 
 import java.util.Scanner;
@@ -30,10 +34,21 @@ class MyNumber {
 
 /* Output after execution
 
-Enter a number : 12.8
-numRound = 13.0
-numCeil = 13.0
-numFloor = 12.0
-numInteger = 12
+Output 1 :
+
+Enter a number : 56.764
+numRound = 57.0
+numCeil = 57.0
+numFloor = 56.0
+numInteger = 56
+
+Output 2 :
+
+Enter a number : 36.432
+numRound = 36.0
+numCeil = 37.0
+numFloor = 36.0
+numInteger = 36
+
 
 */
