@@ -1,0 +1,199 @@
+Java Assignment
+1. Write a Java program to calculate sum of two numbers.
+
+2. Write a java program to prints the count of odd and even no’s entered.
+
+3. Write a program to convert the given temperature in Fahrenheit to Celsius using the
+following conversion formula C = F-32 / 1.8 and display the value in a tabular form.
+
+4. Write Java program to print the squares and cubes for the numbers 1 to 5.
+
+5. Write a java program to find the roots of a quadratic equation. Assign the values of a, b and
+c of the equations in the program itself.
+
+6. Write a java program for finding the sum, difference, product, quotient, minimum and
+maximum of any two integers.
+
+7. Write a java program 'MyNumber.java" that performs following operations on a variable
+'num' of type double: 
+a) Finds the round value of 'num' and stores the result in a variable numRound of type double. 
+b) Finds the ceil value of 'num' and stores the result in a variable numCeil of type double. 
+c) Finds the floor value of 'num' and stores the result in a variable numFloor of type double 
+d) Cast 'num' to type int and stores the result in a variable numInteger of type int. 
+Display output of numRound, numCeil, numFloor and numInteger on screen.
+
+Note: Test your program with following value of num num=56.764 num=36.432 Use
+Math.round, Math.ceil, Math.floor methods of class Math for 1,2 and 3.
+
+8. Write Java program to compute the sum of the 2+4+6+ ---------+10.
+
+9. Write a program in the sequence 1 1 2 3 5 8 13 21 ……………… is called Fibonacci numbers.
+Write a program using a do…while loop to calculate and print the first m Fabonacci numbers.
+
+10. Write a program to calculate the area of triangle, square, circle, rectangle by using method
+overloading.
+
+11. Write a Java Program which prompts the user to enter 4 numbers. The program will then
+computes and display their sum and their product.
+
+12. Write Java program involving two classes: OddAndEven and TestOddAndEven. OddAndEven
+has the following:  Instance varaibales countOfOdd and countOfEven both of type int  A
+method addNumber that takes a number as parameter and increment countOfOdd, if the
+number is odd, else increment countOfEven.  A method toString that returns a string in the
+form: “Number of Odd: x, Number of Even : y”, where x and y are the values of the instance
+variables. The TestOddAndEven class first creates OddAndEven object, then in a loop, read a
+number and use it to call the addNumber method until the user enters Q. Finally, it prints
+the count of odd and even numbers entered.
+
+13. In a small firm employee numbers are given in serial numerical order, that is 1, 2, 3 etc. write
+a menu driven program to perform following operations: 
+a) Create a file of employee data with following information: Employee No, Name, Sex, Gross Salary. 
+b) Append the data of a new employee joining the firm.
+c) If a given employee leaves, delete his record. 
+d) If gross salary of a given employee increases, update the gross salary. 
+e) Display the record of (i) a given employee or (ii) all employees.
+
+14. Design a class Circle and implement the following methods:
+ -  Define a circle method to compute its area
+ -  Define a circle method to compute its perimeter
+ -  Define a method that takes a given point represented by a pair of numbers and 
+    checks whether or not the point is inside the circle.
+
+The circle class needs to have instance variables to store the radius of the circle, and
+the x and y coordinates of the center. Add main program to test the class Circle repeatedly,
+until user enters negative value for the radius of the circle.
+
+15. The certain instructor assigns letter grade for his course based on the following table:
+Score   Grade
+>= 90   A+
+>= 85   A
+>= 80   B+
+>= 75   B
+>= 70   C+
+>= 65   C
+>= 60   D+
+>= 55   D
+<50     F
+
+Write a class, Grader, which has an instance variable, score, an appropriate constructor and
+appropriate methods
+- a method, letterGrade() that returns the letter grade as a String.
+
+Now write a demo class to test the Grader class by reading a score from the user,
+using it to create a Grader object after validating that the value is not negative and is not
+greater then 100. Finally, call the letterGrade() method to get and print the grade. See figure
+(b) for sample run.
+
+16. Write a program to make use of a parameterized method inside a class. Take the following
+case: Create a class Box and define a method in this class which will return the volume of the
+box. Initialize two objects for your class and print out the volumes respectively.
+
+17. Implement a Student class with the following fields, constructors and methods : 
+
+Fields:
+  name;
+  totalScore;
+  numberOfQuizzes;
+Constructors:
+  public Student(String name, double score)
+  public Student(double score, String name)
+  public Student(String name)
+Methods:
+  public String getName()
+  public double getAverage() //this should return zero if no quiz has been taken.
+  public double getTotalScore()
+  public void addQuiz(double score)
+  public void printStudent() //this should print the student’s name and average score
+  public String toString()
+
+Write an application TestStudent that reads a student name and use the Student
+class to create a Student object. Then read the scores of the student in three quizzes
+and add each to the totalScore of the student using addQuiz() method and print the
+student object.
+
+18. Write a program to design a class to represent a bank account. Include the following members.
+
+Date members
+- Name of depositor
+- Account Number
+- Type of account
+- Balance account in the account
+
+Methods:- 
+- To assign initial values
+- To deposit an account
+- To withdraw an account after checking balance.
+- To display the name and balance
+
+19. Implement a superclass Person. Make two classes, Student and Instructor, inherit from
+Person. A person has a name and a year of birth. A student has a major, and an instructor
+has a salary. Write the class definitions, the constructors, and the methods toString for all
+classes. Supply a test program that tests these classes and methods.
+
+20. Write a program where interface can be used to support multiple inheritances. Develop a
+standalone Java program for this.
+
+21. Implement the classes for the shapes using an interface for the common methods, rather
+than inheritance from the superclass, while still Shape as a base class.
+
+22. Write a program that calls a method that throws an exception of type ArithmeticExcepton at
+a random iteration in a for loop. Catch the exception in the method and pass the iteration
+count when the exception occurred to the calling method by using an object of an exception
+class you define.
+
+23. Write a program that will count the number of character in a file
+
+24. Develop an applet that receives three numeric values as input from the user and then
+displays the largest of the three on the screen. Write a HTML pages and test the applet.
+
+25. Write applets to draw the following shapes:
+  a). Cone
+  b).Cylinder
+  c). Square inside a circle
+  d). Circle inside square
+
+26. Write an applet that will display the following on a green background. Use the following
+dimension: Rectangle: (10, 10, 300, 150), fill color: blue Left circle: (10, 10, 150, 150), fill
+color: yellow Right circle: (159, 10, 150, 150), fill color: yellow Text: (110, 90), color: red
+
+27. Write a java Applet program to plot the face:
+
+28. Write a program that draws the picture of a house.
+
+29. Write a graphics program that draws a clock face with a time that the user enters in a text
+field. (The user must enter the time in the format hh:mm, for example 09:45. ). Hint: You
+need to find out the angles of the hour hand and the minute hand. The angle of the hour
+hand is harder; it travels 360 degree in 12 x 60 minutes. Your output must be in the
+following format:
+
+30. Define a class Employee having private members – id, name, department, salary. Define
+default and parameterized constructors. Create a subclass called “Manager” with private
+member bonus. Define methods accept and display in both the classes. Create n objects of
+the Manager class and display the details of the manager having the maximum total salary
+(salary+bonus)
+
+31. Write a Java program to create a super class Vehicle having members Company and price.
+Derive 2 different classes LightMotorVehicle (members – mileage) and HeavyMotorVehicle
+(members – capacity-in-tons). Accept the information for n vehicles and display the
+information in appropriate form. While taking data, ask the user about the type of vehicle
+first.
+
+32. A bank maintains two kinds of accounts - Savings Account and Current Account.The savings
+account provides compound interest, deposit and withdrawal facilities. The current account
+only provides deposit and withdrawal facilities. Current account holders should also
+maintain a minimum balance. If balance falls below this level, a service charge is imposed.
+Create a class Account that stores customer name, account number, and type of account.
+From this derive the classes Curr-acct and Sav-acct. Include the necessary methods in order
+to achieve the following tasks.
+a. Accept deposit from a customer and update the balance.
+b. Display the balance.
+c. Compute interest and add to balance.
+d. Permit withdrawal and update the balance (Check for the minimum balance,
+impose penalty if necessary).
+
+33. Define a class called fruit with the following attributes:
+1. Name of the fruit.
+2. Single fruit or bunch fruit.
+3. Price.
+Define a suitable constructor and displayFruit() method that displays values of all the
+attributes. Write a program that creates 2 objects of fruit class and display their attributes.
