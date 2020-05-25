@@ -113,7 +113,7 @@ student object.
 
 18. Write a program to design a class to represent a bank account. Include the following members.
 
-Date members
+Data members
 - Name of depositor
 - Account Number
 - Type of account
