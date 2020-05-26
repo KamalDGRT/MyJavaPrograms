@@ -1,0 +1,4 @@
+/*
+Write a program where interface can be used to support multiple inheritances. Develop a
+standalone Java program for this.
+*/
