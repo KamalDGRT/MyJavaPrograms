@@ -1,0 +1,3 @@
+/*
+Write a program that will count the number of character in a file.
+*/
