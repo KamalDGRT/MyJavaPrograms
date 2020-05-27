@@ -1,0 +1,4 @@
+/*
+Develop an applet that receives three numeric values as input from the user and then
+displays the largest of the three on the screen. Write a HTML pages and test the applet.
+*/
