@@ -1,0 +1,3 @@
+/*
+Write a program that draws the picture of a house.
+*/
