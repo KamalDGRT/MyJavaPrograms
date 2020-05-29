@@ -29,6 +29,16 @@ class Student{
     private int totalScore;
     private double myAverage;
 
+    public Student(String name, int score) {
+        this.name = name;
+        totalScore += score;
+    }
+
+    public Student(int score, String name) {
+        this.name = name;
+        totalScore += score;
+    }
+
     public Student(String name) {
         this.name = name;
         numberOfQuizzes = 0;
@@ -40,16 +50,32 @@ class Student{
         this("");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public double getAverage() {
+        return myAverage;
+    }
+
+    public double getTotalScore() {
+        return totalScore;
+    }
+
     public void addQuiz(int score)  {
         totalScore = totalScore + score; 
         numberOfQuizzes++;
     }
 
-    public void showDetals() {
+    public void printStudent() {
         System.out.println("Name: " + name );
-        System.out.println("#Quizzes: " + numberOfQuizzes);  
-        System.out.println("Total Quiz Score: " + totalScore); 
         System.out.println("Average Score: " + myAverage);
+    }
+
+    public String toString() {
+        return "Name: " + name + "\n#Quizzes: " + numberOfQuizzes + 
+                "\nTotal Quiz Score: " + totalScore + 
+                "\nAverage Score: " + myAverage;
     }
 
     public void calculateAverageScore() {
@@ -67,15 +93,13 @@ class Question17 {
         Test.addQuiz(160);
         Test.addQuiz(220);
         Test.calculateAverageScore();
-        Test.showDetals();
+        Test.printStudent();
     }
 }
 
 /* Output after execution :
 
 Name: Percy Jackson
-#Quizzes: 3
-Total Quiz Score: 500
 Average Score: 167.0
 
 */
